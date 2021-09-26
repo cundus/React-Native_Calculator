@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Calculator",
+    "slug": "RN-Calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconnew.png",
+    "splash": {
+      "image": "./assets/splashn.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFA1A1"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.cundus.CalculatorApp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.cundus.CalculatorApp",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
